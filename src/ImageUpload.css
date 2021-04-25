@@ -1,0 +1,33 @@
+.imageupload{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    border-top: 1px solid lightgray;
+    align-items: center;
+}
+
+.imageupload__progress{
+    width: 90%;
+}
+
+.imageupload textarea{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    width: 90%;
+
+}
+
+.imageupload input[type="file"]{
+    margin-bottom: 10px;
+    width: 90%;
+}

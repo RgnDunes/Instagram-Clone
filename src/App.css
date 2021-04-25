@@ -7,9 +7,18 @@
 }
 
 .app__header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
   background-color: white;
-  padding: 20px;
+  padding: 8px;
   border-bottom: 1px solid lightgrey;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__headerImage{
   object-fit: contain;
 }
 
@@ -18,3 +27,14 @@
   flex-direction: column;
   text-align: center;
 }
+
+.app__posts{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app__postRight{
+  margin-left: 20px;
+}
+
